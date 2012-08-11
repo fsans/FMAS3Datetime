@@ -27,13 +27,13 @@ Date2FMtimestamp ( date:Date ) : String
 from FileMaker...
 
 ```AS3
-var d:Date = DateTimePasrser.FMtimestamp2date ( "12/31/2000 12:00:00" )
+var d:Date = DateTimeParser.FMtimestamp2date ( "12/31/2000 12:00:00" )
 ```
 
 back to FileMaker...
 
 ```AS3
-var s:String = DateTimePasrser.Date2FMtimestamp ( d );
+var s:String = DateTimeParser.Date2FMtimestamp ( d );
 ```
 
 
