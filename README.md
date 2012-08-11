@@ -14,13 +14,14 @@ Remember that you should send/receive STRINGS to/from FileMaker WPE, not ActionS
 
 Keeping this on ming there are the utility function signatures:
 
+<pre>
 FMdate2date ( value : String ) : Date
 Date2FMdate ( date : Date ) : String
 FMtime2date ( value : String ) : Date
 Date2FMtime ( date : Date ) : String
 FMtimestamp2date ( value : String )
 Date2FMtimestamp ( date:Date ) : String
-
+</pre>
 
 
 from FileMaker...
